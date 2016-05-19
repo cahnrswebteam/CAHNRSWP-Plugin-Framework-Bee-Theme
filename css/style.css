@@ -20,11 +20,56 @@
 .text-content-section .content-wrap {
 	position: relative;
 }
-
+.home .sub-row-title,
 .home .row-title {
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 2.4rem;
+}
+
+.background-color-column {
+	background-color: rgba(159,115,0,0.7);
+	color: #fff;
+}
+
+.home .cpb-action-button {
+	color: #c19300;
+	text-transform: uppercase;
+	border: 2px solid #a9adb0;
+	background-color: #fff;
+	font-weight: normal;
+	font-size: 1.3rem;
+}
+
+.pad-extra {
+	padding: 4rem 0;
+}
+
+.home .event-column {
+	text-align: right;
+	
+}
+
+.home .event-column .cpb-action-button {
+	text-align: right;
+	display: inline-block;
+	margin-right: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+ 
+.custom-social .cpb-promo .cpb-image {
+    width: 48%;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.custom-social .cpb-promo .cpb-copy,
+.custom-social .cpb-promo .cpb-title {
+    width: 48%;
+	margin-left: 0;
 }
 
 
@@ -129,7 +174,7 @@
     width: 140px;
 }
 
-.research-promo .cpb-promo.has-image .cpb-title, .home .cpb-promo.has-image .cpb-copy {
+.research-promo .cpb-promo.has-image .cpb-title, .research-promo .cpb-promo.has-image .cpb-copy {
     margin-left: 155px;
 }
 
